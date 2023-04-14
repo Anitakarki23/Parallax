@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 50vh;
+    position: relative;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero> div{
+    position: absolute;
+    top:10vh;
+    left:65vh;
+    color: white;
+    width: 450px;
+    background-color: rgba(56, 55, 55, 0.169);
+    padding: 1background-size: cover;
+     background-attachment: fixed;rem;
+    border-radius: 10px;
+    backdrop-filter:blur(5px);
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.topmenu {
+    background: black;
+    position: background-size: cover;
+     background-attachment: fixed;sticky;
+    top:0;
+
+    
+}
+.topmenu>div {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+.topmenu ul {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+.topmenu ul li:hover{
+    transform: transform 3s;
+}
+.topmenu ul li:hover{
+    color: brown;
+    cursor: poiner;
+    transform: scale(1.3);
+    transition: all 0.5s;
+    
+}
+
+/* 
+.img1, .img2, .img3 , .img4{
+    height:60vh
+} */
+
+[class^="img"] {
+    height: 60vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img1 {
+    background: url(./img/a.jpg) center center no-repeat;
+    background-size: cover;
+     background-attachment: fixed;
+    
+}
+.img2 {
+    background: url(./img/b.jpg) center center no-repeat;
+   background-size: cover;
+    background-attachment: fixed;
+
+}
+.img3 {
+    background: url(./img/c.jpg) center center no-repeat;
+    background-size: cover;
+     background-attachment: fixed;
+
+}
+.img4 {
+    background: url(./img/d.jpg) center center no-repeat;
+    background-size: cover;
+     background-attachment: fixed;
+
+}
+
+
+
+.title{
+    background: black;
+    color: white;
+   
+    font-size: 3rem;
+    padding:1rem 3rem ;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+footer{
+    background-color: rgba(238, 130, 238, 0.38);
+    padding: 3rem;
+    text-align: center;
+
+}
